@@ -26,14 +26,18 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2kFJBMLuNPgNLHd75ICFNsobDHR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.All in leetcode-solutions.executor": "Run",
     "JUnit.ContainsDuplicateTest.executor": "Run",
+    "JUnit.TwoSumTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -45,7 +49,15 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ValidAnagramTest">
+  <component name="RunManager" selected="JUnit.All in leetcode-solutions">
+    <configuration name="All in leetcode-solutions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
@@ -56,6 +68,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ContainsDuplicateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TwoSumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in leetcode-solutions" />
+        <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.ValidAnagramTest" />
         <item itemvalue="JUnit.ContainsDuplicateTest" />
       </list>
