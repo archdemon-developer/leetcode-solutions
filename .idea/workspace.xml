@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +39,12 @@
     "JUnit.All in leetcode-solutions.executor": "Run",
     "JUnit.ContainsDuplicateTest.executor": "Run",
     "JUnit.GroupAnagramsTest.executor": "Run",
-    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Debug",
+    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/group-anagrams",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "I:/Projects/Java/wildpulse-backend",
     "project.structure.last.edited": "Project",
@@ -142,16 +143,5 @@
       <updated>1722873256952</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/GroupAnagramsTest.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
