@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="" />
+    <list default="true" id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +37,22 @@
   "keyToString": {
     "JUnit.All in leetcode-solutions.executor": "Run",
     "JUnit.ContainsDuplicateTest.executor": "Run",
+    "JUnit.GroupAnagramsTest.executor": "Run",
+<<<<<<< Updated upstream
+    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Debug",
+=======
+    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Run",
+    "JUnit.TopKFrequentElementsTest.executor": "Run",
+    "JUnit.TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements.executor": "Run",
+    "JUnit.TopKFrequentElementsTest.testTopKFrequent_withNegativeElements.executor": "Debug",
+>>>>>>> Stashed changes
     "JUnit.TwoSumTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "I:/Projects/Java/wildpulse-backend",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupAnagramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -65,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ContainsDuplicateTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.GroupAnagramsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopKFrequentElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +92,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TwoSumTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TopKFrequentElementsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +107,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ValidAnagramTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TopKFrequentElementsTest" />
+      <option name="METHOD_NAME" value="testTopKFrequent_withAllUniqueElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentElementsTest.testTopKFrequent_withNegativeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TopKFrequentElementsTest" />
+      <option name="METHOD_NAME" value="testTopKFrequent_withNegativeElements" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,9 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in leetcode-solutions" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
-        <item itemvalue="JUnit.ContainsDuplicateTest" />
+        <item itemvalue="JUnit.TopKFrequentElementsTest" />
+        <item itemvalue="JUnit.TopKFrequentElementsTest.testTopKFrequent_withNegativeElements" />
+        <item itemvalue="JUnit.TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements" />
+        <item itemvalue="JUnit.GroupAnagramsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,5 +150,22 @@
       <updated>1722873256952</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+<<<<<<< Updated upstream
+          <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/GroupAnagramsTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+=======
+          <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/TopKFrequentElementsTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+>>>>>>> Stashed changes
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
