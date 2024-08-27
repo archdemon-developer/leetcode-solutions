@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="">
+    <list default="true" id="7e872395-6ceb-4f11-b7c3-5c1403e72c5f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +36,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.All in leetcode-solutions.executor": "Run",
-    "JUnit.ContainsDuplicateTest.executor": "Run",
-    "JUnit.GroupAnagramsTest.executor": "Run",
-<<<<<<< Updated upstream
-    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Debug",
-=======
-    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Run",
-    "JUnit.TopKFrequentElementsTest.executor": "Run",
-    "JUnit.TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements.executor": "Run",
-    "JUnit.TopKFrequentElementsTest.testTopKFrequent_withNegativeElements.executor": "Debug",
->>>>>>> Stashed changes
-    "JUnit.TwoSumTest.executor": "Run",
-    "JUnit.ValidAnagramTest.executor": "Run",
+    "Application.EncodeDecodeStrings.executor": "Run",
+    "JUnit.All in leetcode-solutions.executor": "Coverage",
+    "JUnit.EncodeDecodeStringsTest.executor": "Run",
+    "JUnit.EncodeDecodeStringsTest.testEncodeDecodeBasic.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/Projects/Java/wildpulse-backend",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "git-widget-placeholder": "feature/top-k-frequent-elements",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.All in leetcode-solutions">
@@ -68,7 +54,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncodeDecodeStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +63,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.GroupAnagramsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.EncodeDecodeStringsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncodeDecodeStringsTest.testEncodeDecodeBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.solutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.EncodeDecodeStringsTest" />
+      <option name="METHOD_NAME" value="testEncodeDecodeBasic" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidAnagramTest.testBothStringsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -107,24 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TopKFrequentElementsTest" />
-      <option name="METHOD_NAME" value="testTopKFrequent_withAllUniqueElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopKFrequentElementsTest.testTopKFrequent_withNegativeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.solutions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TopKFrequentElementsTest" />
-      <option name="METHOD_NAME" value="testTopKFrequent_withNegativeElements" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ValidAnagramTest" />
+      <option name="METHOD_NAME" value="testBothStringsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in leetcode-solutions" />
+        <item itemvalue="JUnit.ValidAnagramTest.testBothStringsNull" />
+        <item itemvalue="JUnit.EncodeDecodeStringsTest" />
+        <item itemvalue="JUnit.EncodeDecodeStringsTest.testEncodeDecodeBasic" />
         <item itemvalue="JUnit.TopKFrequentElementsTest" />
-        <item itemvalue="JUnit.TopKFrequentElementsTest.testTopKFrequent_withNegativeElements" />
-        <item itemvalue="JUnit.TopKFrequentElementsTest.testTopKFrequent_withAllUniqueElements" />
-        <item itemvalue="JUnit.GroupAnagramsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,17 +141,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-<<<<<<< Updated upstream
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/GroupAnagramsTest.java</url>
           <line>59</line>
           <option name="timeStamp" value="1" />
-=======
-          <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/TopKFrequentElementsTest.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
->>>>>>> Stashed changes
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_solutions$All_in_leetcode_solutions.ic" NAME="All in leetcode-solutions Coverage Results" MODIFIED="1724729815942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

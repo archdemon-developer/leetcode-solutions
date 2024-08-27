@@ -6,6 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ValidAnagramTest {
 
     @Test
+    public void testBothStringsNull() {
+        assertFalse(new ValidAnagram().isAnagram(null,null));
+    }
+    @Test
     public void testAnagrams() {
         ValidAnagram checker = new ValidAnagram();
         assertTrue(checker.isAnagram("racecar", "carrace"));
