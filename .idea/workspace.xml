@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="">
+    <list default="true" id="8fd6b7df-adcf-4cf8-a162-dc2dfd281261" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/EncodeDecodeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/EncodeDecodeStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ProductExceptSelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/TopKFrequentElementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +43,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.All in leetcode-solutions.executor": "Run",
-    "JUnit.ContainsDuplicateTest.executor": "Run",
-    "JUnit.GroupAnagramsTest.executor": "Run",
-    "JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates.executor": "Run",
-    "JUnit.TwoSumTest.executor": "Run",
-    "JUnit.ValidAnagramTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feat/group-anagrams",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/Projects/Java/wildpulse-backend",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "git-widget-placeholder": "Merging feat/group-anagrams"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GroupAnagramsTest">
+  <component name="RunManager" selected="JUnit.All in leetcode-solutions">
     <configuration name="All in leetcode-solutions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductExceptSelfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -71,13 +64,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.GroupAnagramsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ProductExceptSelfTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagramsTest.testGroupAnagrams_duplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductExceptSelfTest.testProductExceptSelf_AllPositiveNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.GroupAnagramsTest" />
-      <option name="METHOD_NAME" value="testGroupAnagrams_duplicates" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ProductExceptSelfTest" />
+      <option name="METHOD_NAME" value="testProductExceptSelf_AllPositiveNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductExceptSelfTest.testProductExceptSelf_NullArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ProductExceptSelfTest" />
+      <option name="METHOD_NAME" value="testProductExceptSelf_NullArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidAnagramTest.testBothStringsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -118,30 +112,45 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.ValidAnagramTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testBothStringsNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GroupAnagramsTest" />
-        <item itemvalue="JUnit.GroupAnagramsTest.testGroupAnagrams_duplicates" />
         <item itemvalue="JUnit.All in leetcode-solutions" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
+        <item itemvalue="JUnit.ProductExceptSelfTest.testProductExceptSelf_NullArray" />
+        <item itemvalue="JUnit.ProductExceptSelfTest" />
+        <item itemvalue="JUnit.ProductExceptSelfTest.testProductExceptSelf_AllPositiveNumbers" />
+        <item itemvalue="JUnit.ValidAnagramTest.testBothStringsNull" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23810651-301f-40f5-ba60-fe6f3d2e2657" name="Changes" comment="" />
+      <changelist id="7e872395-6ceb-4f11-b7c3-5c1403e72c5f" name="Changes" comment="" />
       <created>1722873256952</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722873256952</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/solutions/GroupAnagramsTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_solutions$All_in_leetcode_solutions.ic" NAME="All in leetcode-solutions Coverage Results" MODIFIED="1724947412492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
