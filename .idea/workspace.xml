@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e872395-6ceb-4f11-b7c3-5c1403e72c5f" name="Changes" comment="">
+    <list default="true" id="8fd6b7df-adcf-4cf8-a162-dc2dfd281261" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/EncodeDecodeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/solutions/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/EncodeDecodeStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ProductExceptSelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/TopKFrequentElementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/solutions/ValidAnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.EncodeDecodeStrings.executor": "Run",
-    "JUnit.All in leetcode-solutions.executor": "Coverage",
-    "JUnit.EncodeDecodeStringsTest.executor": "Run",
-    "JUnit.EncodeDecodeStringsTest.testEncodeDecodeBasic.executor": "Run",
-    "JUnit.ProductExceptSelfTest.executor": "Run",
-    "JUnit.ProductExceptSelfTest.testProductExceptSelf_AllPositiveNumbers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/product-of-array-except-self",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "Merging feat/group-anagrams"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.All in leetcode-solutions">
@@ -151,6 +151,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode_solutions$All_in_leetcode_solutions.ic" NAME="All in leetcode-solutions Coverage Results" MODIFIED="1724947182497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$All_in_leetcode_solutions.ic" NAME="All in leetcode-solutions Coverage Results" MODIFIED="1724947412492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

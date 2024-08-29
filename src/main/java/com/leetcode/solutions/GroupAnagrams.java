@@ -9,12 +9,7 @@ public class GroupAnagrams {
             char[] wordAsChars = word.toCharArray();
             Arrays.sort(wordAsChars);
             String sortedString = new String(wordAsChars);
-            List<String> anagramGroup = new ArrayList<>();
-            if (anagramStore.containsKey(sortedString)) {
-                anagramGroup = anagramStore.get(sortedString);
-            }
-            anagramGroup.add(word);
-            anagramStore.put(sortedString, anagramGroup);
+            anagramStore.computeIfAbsent(sortedString, key -> new ArrayList<>()).add(word);
         }
         return new ArrayList<>(anagramStore.values());
     }
